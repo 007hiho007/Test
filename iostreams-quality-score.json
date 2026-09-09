@@ -8,6 +8,6 @@
   { "expression": "/* Quality: HDTV */ quality(streams, 'HDTV')", "score": 45, "enabled": true },
   { "expression": "/* Quality: CAM/TS/TC/SCR */ quality(streams, 'CAM', 'TS', 'TC', 'SCR')", "score": 5, "enabled": true },
   { "expression": "/* Quality: Unknown */ quality(streams, 'Unknown')", "score": 0, "enabled": true },
-  { "expression": "/* Größenbonus: sehr groß */ size(streams, '60GB')", "score": 25, "enabled": true },
-  { "expression": "/* Größenbonus: groß */ size(streams, '30GB', '60GB')", "score": 12, "enabled": true }
+  { "expression": "/* Größenbonus: sehr groß */ size(streams, '60GB')", "score": 15, "enabled": true },
+  { "expression": "/* Größenbonus: groß */ size(streams, '30GB', '60GB')", "score": 7, "enabled": true }
 ]
