@@ -1,0 +1,13 @@
+[
+  { "expression": "/* Quality: BD REMUX/BluRay (inkl. Mistags) */ merge(quality(streams, 'BluRay REMUX', 'BluRay'), keyword(streams, 'filename', 'Remux'))", "score": 100, "enabled": true },
+  { "expression": "/* Quality: WEB-DL */ quality(streams, 'WEB-DL')", "score": 80, "enabled": true },
+  { "expression": "/* Quality: WEBRip */ quality(streams, 'WEBRip')", "score": 70, "enabled": true },
+  { "expression": "/* Quality: HDRip */ quality(streams, 'HDRip')", "score": 60, "enabled": true },
+  { "expression": "/* Quality: HC HD-Rip */ quality(streams, 'HC HD-Rip')", "score": 55, "enabled": true },
+  { "expression": "/* Quality: DVDRip */ quality(streams, 'DVDRip')", "score": 50, "enabled": true },
+  { "expression": "/* Quality: HDTV */ quality(streams, 'HDTV')", "score": 45, "enabled": true },
+  { "expression": "/* Quality: CAM/TS/TC/SCR */ quality(streams, 'CAM', 'TS', 'TC', 'SCR')", "score": 5, "enabled": true },
+  { "expression": "/* Quality: Unknown */ quality(streams, 'Unknown')", "score": 0, "enabled": true },
+  { "expression": "/* Größenbonus: sehr groß */ size(streams, '60GB')", "score": 25, "enabled": true },
+  { "expression": "/* Größenbonus: groß */ size(streams, '30GB', '60GB')", "score": 12, "enabled": true }
+]
